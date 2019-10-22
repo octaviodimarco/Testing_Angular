@@ -2,9 +2,15 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: "./app.component.html",
+  styles: [`
+
+  `]
 })
 export class AppComponent {
-  title = 'hola-mundo';
+  persona = {
+    nombre: "Octavio",
+    edad: 22
+  }
+  
 }
